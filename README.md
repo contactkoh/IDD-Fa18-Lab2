@@ -24,15 +24,21 @@ Include your responses to the bold questions on your own fork of [this lab repor
 
 ## Part B. Writing to the LCD
  
+ 
 **a. What voltage level do you need to power your display?**
    5 V (Power supply for logic operating, p.5 of the LED module specification. VDD on LED)
+   
 **b. What voltage level do you need to power the display backlight?**
    3 V  (LED Backlight operating voltage, p.5 of the LED module specification. A on LED) 
+   
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
    Almost forgot to connect the separate backlight Led power. There were too many wires I was using so it was hard to keep track of which one goes to which. Eventually, I found out that I needed to make a separate power for the Backlight for 3V which resolved the issue.  
    Also, I almost didn't know that the LED module cautioned to use 3 V for LED Backlight. (Athe specification p.5 seemed to have some conflicting info which I must be careful about). Eventually, I was able to read more info on specification (warning about not to use the 5V for backlight led) and was able to resolve it. 
+   
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
-      lcd.print("hello, world!");  change it to -->   lcd.print("Hello, Hongyun!");
+      lcd.print("hello, world!");  change it to -->   lcd.print("Hello, Hongyun!"); 
+      I didn't need to change the columns and rows numbers as my name didn't go past the current lines.
+      
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
  See attached. ( LED_display file ) 
 
