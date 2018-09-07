@@ -39,6 +39,8 @@ Include your responses to the bold questions on your own fork of [this lab repor
       lcd.print("hello, world!");  change it to -->   lcd.print("Hello, Hongyun!"); 
       I didn't need to change the columns and rows numbers as my name didn't go past the current lines.
       
+![alt text](https://github.com/contactkoh/IDD-Fa18-Lab2/blob/master/lcd_name.jpg)
+      
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
  See attached. ( lcd_display file ) 
 
