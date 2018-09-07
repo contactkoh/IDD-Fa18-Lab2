@@ -42,7 +42,7 @@ Include your responses to the bold questions on your own fork of [this lab repor
 ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab2/blob/master/lcd_name.jpg)
       
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
- See attached. ( lcd_display file ) 
+ See attached. [LCD_display] (https://github.com/contactkoh/IDD-Fa18-Lab2/blob/master/LCD_display.ino) lcd_display file.
 
 ## Part C. Using a time-based digital sensor
 
