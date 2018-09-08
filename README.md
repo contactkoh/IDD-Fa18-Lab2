@@ -52,7 +52,7 @@ Include your responses to the bold questions on your own fork of [this lab repor
 
 **Upload a video of your working rotary encoder here.**
 
-[My Led- blinking] (https://youtu.be/FVidNY44AdY) LED blinking
+[Rotary Encoder working] (https://youtu.be/nsMVNokiOHY) Rotary Encoder working
 
 
 ## Part D. Make your Arduino sing!
