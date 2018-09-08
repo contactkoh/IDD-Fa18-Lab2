@@ -48,6 +48,10 @@
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
+int sensorPin = A0;    // input A0 for reading from the Potentiometer
+int sensorValue = 0;  //  save the value from the A0
+int outputValue = 0;  //save the map value scaled from 0 to 255
+
 void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
@@ -56,9 +60,25 @@ void setup() {
 }
 
 void loop() {
+  lcd.setCursor(0, 0);
+  lcd.print("Pot turned(0~255):");
+  
+  //read from A0 
+  sensorValue = analogRead(sensorPin);
+
+  // scale the map of sensorValue from 0 to 255 
+  outputValue = map(sensorValue, 0, 1023, 255, 0);
+
   // set the cursor to column 0, line 1
   // (note: line 1 is the second row, since counting begins with 0):
   lcd.setCursor(0, 1);
+
+  //print the A0 sensor value received
+  lcd.print(outputValue);
+  lcd.print("% turned");
+  delay(1000);
+  lcd.clear();
+  
   // print the number of seconds since reset:
-  lcd.print(millis() / 1000);
+  //lcd.print(millis() / 1000);
 }
