@@ -58,6 +58,10 @@ Include your responses to the bold questions on your own fork of [this lab repor
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+Each note lasts for the duration time. So I changed " int pauseBetweenNotes = noteDuration * 1.30;"  to 
+    "int pauseBetweenNotes = noteDuration * 0.65; " because 1.3 / 2 = 0.65 and each note is now played during half the time, making the song play twice as fast. 
+
  
 **b. What song is playing?**
 
