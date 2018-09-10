@@ -71,5 +71,11 @@ Some tune that is different and more like a music. Unfortunately, I am do not kn
 ## Part E. Make your own timer
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
+[Timer with Blink] https://youtu.be/2PlKkVtlFQE  Timer with Blink
+
+Press and hold the button for x seconds and then lift finger off. The count down runs for x seconds and Blue LED blinks twice. 
+(Code is uploaded. LCD_display_Timer.ino)
+The exact timing and while loops implementation could use some more improvement later. 
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
+Link has been posted. 
